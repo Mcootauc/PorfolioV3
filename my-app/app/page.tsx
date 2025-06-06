@@ -156,7 +156,7 @@ export default function Portfolio() {
             position: 'Software Engineer Intern',
             company: 'NextFoundArtist',
             dates: 'January 2025 - May 2025',
-            logo: '/placeholder.svg?height=80&width=120',
+            logo: '/experience_img/NextFoundArtist.jpg',
             responsibilities: [
                 'Established CRUD operations using Python, FastAPI, and SQL, optimizing data management and backend performance',
                 'Enhanced the user dashboard utilizing React, Next.js, and TypeScript, ensuring a dynamic and responsive user interface',
@@ -167,7 +167,7 @@ export default function Portfolio() {
             position: 'Full Stack Software Engineer',
             company: 'HHQueen',
             dates: 'February 2025 - April 2025',
-            logo: '/placeholder.svg?height=80&width=120',
+            logo: '/experience_img/HHQueen.jpg',
             responsibilities: [
                 'Optimized database schema with Prisma, improving data management for user profiles, venues, and menu images',
                 'Deployed a Next.js web app using React and TypeScript, facilitating B2B login and auto-fill search for venue access requests',
