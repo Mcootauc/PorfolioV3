@@ -145,7 +145,7 @@ export default function Portfolio() {
             position: 'Director of Engineering',
             company: 'Crimson Consultant Group',
             dates: 'February 2024 - May 2025',
-            logo: '/placeholder.svg?height=80&width=120',
+            logo: '/experience_img/CCG.jpg',
             responsibilities: [
                 'Spearheaded a client project for a multi-billion-dollar short-term rental company by directing product development teams to curate an application programming interface for 23,000 monthly active homeowner stakeholders',
                 'Created an improved web application utilizing Vue and Google Firebase to store and display information seamlessly',
@@ -178,7 +178,7 @@ export default function Portfolio() {
             position: 'Software Engineer Intern',
             company: 'Valley Veterinary Hospital',
             dates: 'May 2024 - August 2024',
-            logo: '/placeholder.svg?height=80&width=120',
+            logo: '/experience_img/ValleyVetPlaceholder.png',
             responsibilities: [
                 'Developed an automated client registration system using React Native Expo and Supabase that reduced new client entry time by 10% and removed data-entry errors, allowing veterinary technicians to spend more time assisting clients and pets',
                 'Integrated a Chrome extension to auto-populate new client information into veterinary management software, which streamlined workflow and minimized manual data handling, increasing the number of new clients every month',
@@ -189,7 +189,7 @@ export default function Portfolio() {
             position: 'Algorithms Teaching Assistant',
             company: 'Loyola Marymount University',
             dates: 'August 2023 - May 2024',
-            logo: '/placeholder.svg?height=80&width=120',
+            logo: '/experience_img/TeachingAssistant.jpg',
             responsibilities: [
                 'Enabled understanding of Python algorithmic concepts for 75 students through 1-1 tutoring, facilitating academic success',
                 'Assessed homework projects, providing detailed feedback to students to improve their understanding of algorithmic concepts',
@@ -200,7 +200,7 @@ export default function Portfolio() {
             position: 'Software Engineer Researcher',
             company: 'Loyola Marymount University',
             dates: 'May 2023 - June 2023',
-            logo: '/placeholder.svg?height=80&width=120',
+            logo: '/experience_img/SoftwareEngineerResearcher.jpg',
             responsibilities: [
                 'Designed a web app using React and the eBird API, improving online experience and access to avian knowledge',
                 'Resolved API connectivity issues by rectifying the API key discrepancy, ensuring uninterrupted data flow and functionality',
@@ -518,7 +518,7 @@ export default function Portfolio() {
                                 }`}
                                 style={{ transitionDelay: `${index * 200}ms` }}
                             >
-                                <div className="flex-1">
+                                <div className="flex-1 lg:w-1/2">
                                     <h3 className="text-2xl lg:text-3xl font-bold mb-2 text-[#ebebf0]">
                                         {exp.position}
                                     </h3>
@@ -548,13 +548,13 @@ export default function Portfolio() {
                                     </ul>
                                 </div>
 
-                                <div className="flex-shrink-0 lg:ml-8">
-                                    <div className="w-32 h-20 bg-[#1a1a1f] rounded-lg border border-[#91A3B2]/20 flex items-center justify-center">
+                                <div className="lg:w-1/2 flex justify-center items-center">
+                                    <div className="w-[90%] h-[300px] bg-[#1a1a1f] rounded-lg border border-[#91A3B2]/20 flex items-center justify-center p-8">
                                         <Image
                                             src={exp.logo || '/placeholder.svg'}
                                             alt={`${exp.company} logo`}
-                                            width={120}
-                                            height={80}
+                                            width={500}
+                                            height={300}
                                             className="max-w-full max-h-full object-contain opacity-80"
                                         />
                                     </div>
